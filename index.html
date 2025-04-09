@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Pagina de login segura e elegante">
+    <meta name="descripition" content="Pagina de login segura e elegante">
     <meta name="keywords" content="login, acesso, segurança, conta">
-
     <title>Login | Minha Plataforma</title>
 </head>
 
@@ -17,10 +16,11 @@
             <h1>Bem-vindo</h1>
             <p class="subtitle">Entre com suas credenciais para acessar</p>
         </header>
+
         <form action="/login" method="POST">
             <div class="form-group">
                 <label for="email">Email ou Usuario</label>
-                <div class="input-grup">
+                <div class="input-group">
                     <input type="email" id="email" name="email" placeholder="Seu email ou nome de usuario" required
                         autofocus>
                 </div>
@@ -28,7 +28,7 @@
 
             <div class="form-group">
                 <label for="password">Senha</label>
-                <div class="input-grup">
+                <div class="input-group">
                     <input type="password" id="password" name="password" placeholder="Senha" required>
                 </div>
             </div>
@@ -36,7 +36,34 @@
             <div class="forgot-password">
                 <a href="/recuperar-senha">Esqueceu sua senha?</a>
             </div>
+
+            <div class="options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Lembre-me</label>
+                </div>
+            </div>
+            <button type="submit">Entrar</button>
+
         </form>
+
+        <div class="divider">
+            <span>Ou continue com</span>
+        </div>
+
+        <div class="social-login">
+            <a href="#" class="social-btn" aria-label="Entrar com google">G</a>
+            <a href="#" class="social-btn" aria-label="Entrar com facebook">F</a>
+            <a href="#" class="social-btn" aria-label="Entrar com apple">A</a>
+
+        </div>
+
+        <div class="singup-link">
+            Não tem uma conta? <a ref="/cadastro">Criar conta</a>
+        </div>
+
+
+
     </main>
 </body>
 
