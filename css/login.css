@@ -28,6 +28,8 @@ h1 {
     margin-bottom: 0.5rem;
     color: var(--text-primary);
     font-size: 0.95rem;
+    justify-content: center;
+    
 }
 .subtitle {
     color: var(--text-secundary);
