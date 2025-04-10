@@ -27,6 +27,7 @@ h1 {
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: var(--text-primary);
+    font-size: 0.95rem;
 }
 .subtitle {
     color: var(--text-secundary);
