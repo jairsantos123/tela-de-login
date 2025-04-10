@@ -70,4 +70,47 @@ label {
     color: var(--text-secundary);
     opacity: 0.7;
 }
+
+.forgot-password {
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.forgot-password a {
+    color: var(--text-secundary);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.forgot-password a:hover {
+    color: var(--primary-color);
+
+}
+
+.options {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.remember-me input {
+    width: auto;
+    margin-right: 0.5rem;
+    accent-color: var(--primary-color);
+}
+
+.remember-me label {
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
  
